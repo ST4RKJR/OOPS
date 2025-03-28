@@ -8,6 +8,10 @@
 #         play
 #         forward
 
+
+
+
+import math
 class Movie:
     def __init__(self,name,year,rating):
         self.name = name
