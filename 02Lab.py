@@ -13,3 +13,21 @@ class Dog:
         else:
             print(f"My Dog's name is {self.name}. \nMy Dog's age is {self.age}. \nI Dont Have any Friend")
               
+    def bark(self):
+        print("Woof Woof")
+    def eat(self):
+        print("I Love to eat pedigree")
+    # def Name(self):
+    #     return self.Name
+    # def Age(self):
+    #     return self.age
+    # def Breed(self):
+    #     return self.breed
+    # def Gender(self):
+    #     return self.gender
+    # def color(self):
+    #     return self.color
+    # def Owner(self):
+    #     return self.owner
+    
+
