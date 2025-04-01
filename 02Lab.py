@@ -30,4 +30,20 @@ class Dog:
     # def Owner(self):
     #     return self.owner
     
+Hari = Dog("Hari",3,"Pommerian","Male","Brown",None)
+samay = Dog("sher",1,"shitzu","M","Black",Hari)
 
+Hari.introduce()
+Hari.bark()
+Hari.eat()
+
+samay.introduce()
+samay.bark()
+samay.eat()
+
+# print(bark.Name)
+# print(bark.Age)
+# print(bark.Breed)
+# print(bark.Gender)
+# print(bark.color)
+# print(bark.Owner)
